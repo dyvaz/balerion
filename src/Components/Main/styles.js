@@ -4,8 +4,9 @@ import {
   Home,
   Search,
   Notifications,
-  Email,
+  Person,
 } from "../../styles/Icons";
+import { Pencil } from "@styled-icons/octicons/Pencil";
 
 export const Container = styled.div`
   display: flex;
@@ -69,8 +70,8 @@ export const BottomMenu = styled.div`
   border-top: 1px solid var(--outline);
   display: flex;
   justify-content: space-between;
-  padding: 8px min(46px, max(10vw, 10px));
-
+  padding: 15px 0 15px 0;
+  // min(4px) max(10px, 10px)
   @media (min-width: 500px) {
     display: none;
   }
@@ -80,15 +81,20 @@ const iconCSS = css`
   height: 31px;
   cursor: pointer;
   fill: var(--gray);
-
-  &:hover,
   &.active {
     fill: var(--twitter);
+  }
+
+  &.post {
+    fill: white;
+    width: 29px;
+    height: 29px;
   }
 `;
 
 export const HomeIcon = styled(Home)`
   ${iconCSS}
+  margin-left:10px;
 `;
 export const SearchIcon = styled(Search)`
   ${iconCSS}
@@ -96,6 +102,22 @@ export const SearchIcon = styled(Search)`
 export const BellIcon = styled(Notifications)`
   ${iconCSS}
 `;
-export const EmailIcon = styled(Email)`
+export const PostIcon = styled(Pencil)`
   ${iconCSS}
 `;
+export const ProfileIcon = styled(Person)`
+  ${iconCSS}
+  margin-right:10px;
+`;
+
+export const Post = styled.button`
+  margin-top: -10px;
+  margin-bottom: -10px;
+
+  width: 50px;
+  height: 50px;
+  background: var(--twitter);
+  border-radius: 50%;
+`;
+
+//colocar o botao de new post

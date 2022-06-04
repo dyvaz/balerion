@@ -10,6 +10,7 @@ const Layout = () => {
     <Container>
       <Wrapper>
         <Menu />
+        {/* <Profile /> */}
         <Main />
         <SideBar />
       </Wrapper>

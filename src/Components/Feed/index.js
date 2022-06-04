@@ -7,8 +7,6 @@ import { Container, Tab, Tweets } from "./styles";
 const Feed = () => {
   return (
     <Container>
-      <Tab>Tweets</Tab>
-
       <Tweets>
         <Tweet />
         <Tweet />

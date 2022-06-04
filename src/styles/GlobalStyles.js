@@ -16,11 +16,12 @@ html, body, #root{
 }
 *, button, input {
     border: 0;
-    background:nonde;
-    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Robotom 'Helvetica Neue', Ubunto, Arial,sans-serif;
+    background:none;
+    font-family: Ubunto, Arial,sans-serif;
 }
 html{
-    background: var(--primary);
+  //background: gray;
+   background: var(--primary);
 }
 :root {
     --primary: #000;
@@ -32,8 +33,8 @@ html{
     --retweet: #00C06B;
     --like: #E8265E;
     --twitter: #043828;
-    --twitter-dark-hover: #011017;
-    --twitter-light-hover: #2C8ED6;
+    --twitter-dark-hover: #4c684c;
+    --twitter-light-hover: #b4e1b4;
   }
 `;
 //mudar no root para as minhas cores

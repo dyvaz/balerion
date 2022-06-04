@@ -1,6 +1,8 @@
 import React from "react";
 
-import ProfilePage from "../ProfilePage";
+import { ProfilePage, InfoProfileUser } from "../ProfilePage";
+import PaginaInicial from "../PaginaInicial";
+import { ProfileVisit, InfoProfile } from "../Profile";
 import {
   Container,
   Header,
@@ -10,7 +12,9 @@ import {
   HomeIcon,
   SearchIcon,
   BellIcon,
-  EmailIcon,
+  ProfileIcon,
+  PostIcon,
+  Post,
 } from "./styles";
 
 const Main = () => {
@@ -20,20 +24,23 @@ const Main = () => {
         <button>
           <BackIcon />
         </button>
-
-        <ProfileInfo>
-          <strong>Dyanna</strong>
-          <span>999 Posts</span>
-        </ProfileInfo>
+        <InfoProfile />
+        {/* se for o usuario logado: */}
+        {/* <InfoProfileUser /> */}
       </Header>
 
-      <ProfilePage />
+      {/* <ProfilePage /> */}
+      <ProfileVisit />
+      {/* <PaginaInicial /> */}
 
       <BottomMenu>
         <HomeIcon />
         <SearchIcon />
-        <EmailIcon />
+        <Post>
+          <PostIcon className="post" />
+        </Post>
         <BellIcon />
+        <ProfileIcon />
       </BottomMenu>
     </Container>
   );

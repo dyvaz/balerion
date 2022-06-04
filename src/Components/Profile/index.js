@@ -11,9 +11,10 @@ import {
   CakeIcon,
   Followage,
   ButtonA,
-} from "./styles";
+} from "../ProfilePage/styles";
 import { ProfileInfo } from "../Main/styles";
-export const ProfilePage = () => {
+
+export const ProfileVisit = () => {
   return (
     <Container>
       <Banner>
@@ -21,10 +22,14 @@ export const ProfilePage = () => {
       </Banner>
 
       <ProfileData>
-        <ButtonA outlined>Editar perfil</ButtonA>
+        <ButtonA outlined>Seguir</ButtonA>
+        {/* se eu ja seguir */}
+        {/* <ButtonA outlined>Seguindo</ButtonA> */}
+        {/* e o houver */}
+        {/* <ButtonA outlined>Deixar de seguir</ButtonA> */}
 
-        <h1>Dyanna</h1>
-        <h2>@dyvaz</h2>
+        <h1>Tarcisio</h1>
+        <h2>@tx</h2>
 
         <ul>
           <li>
@@ -33,13 +38,13 @@ export const ProfilePage = () => {
           </li>
           <li>
             <CakeIcon />
-            Nascido(a) em 1 de agosto de 2003
+            Nascido(a) em 21 de abril de 1990
           </li>
         </ul>
 
         <Followage>
           <span>
-            <strong>999</strong> seguindo
+            <strong>9</strong> seguindo
           </span>
 
           <span>
@@ -53,11 +58,11 @@ export const ProfilePage = () => {
   );
 };
 
-export const InfoProfileUser = () => {
+export const InfoProfile = () => {
   return (
     <ProfileInfo>
-      <strong>Dyanna</strong>
-      <span>999 Posts</span>
+      <strong>Tarcisio</strong>
+      <span>19 Posts</span>
     </ProfileInfo>
   );
 };

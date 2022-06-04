@@ -5,16 +5,14 @@ import {
   Topside,
   Logo,
   MenuButton,
+  PostIcon,
   HomeIcon,
   BellIcon,
-  EmailIcon,
-  FavoriteIcon,
   ProfileIcon,
   Botside,
   Avatar,
   ProfileData,
   ExitIcon,
-  ButtonB,
 } from "./styles";
 
 const MenuBar = () => {
@@ -33,24 +31,15 @@ const MenuBar = () => {
           <span>Notificações</span>
         </MenuButton>
 
-        <MenuButton>
-          <EmailIcon />
-          <span>Mensagens</span>
-        </MenuButton>
-
-        <MenuButton>
-          <FavoriteIcon />
-          <span>Favoritados</span>
-        </MenuButton>
-
         <MenuButton className="active">
           <ProfileIcon />
           <span>Perfil</span>
         </MenuButton>
 
-        <ButtonB>
+        <MenuButton className="post">
+          <PostIcon />
           <span>Postar</span>
-        </ButtonB>
+        </MenuButton>
       </Topside>
 
       <Botside>
