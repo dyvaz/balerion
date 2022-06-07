@@ -11,7 +11,7 @@ import { Pencil } from "@styled-icons/octicons/Pencil";
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  width: min(601px, 100%);
+  width: min(655px, 100%);
   @media (min-width: 500px) {
     border-left: 1px solid var(--outline);
     border-right: 1px solid var(--outline);
@@ -39,6 +39,10 @@ export const Header = styled.div`
       background: var(--twitter-dark-hover);
     }
   }
+`;
+export const H1 = styled.h1`
+  font-size: 20px;
+  padding: 8px 0 6px 10px;
 `;
 
 export const BackIcon = styled(ArrowLeft)`

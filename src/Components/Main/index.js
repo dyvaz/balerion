@@ -3,6 +3,8 @@ import React from "react";
 import { ProfilePage, InfoProfileUser } from "../ProfilePage";
 import PaginaInicial from "../PaginaInicial";
 import { ProfileVisit, InfoProfile } from "../Profile";
+import NewPost from "../NewPost";
+import PostBox from "../PostBox";
 import {
   Container,
   Header,
@@ -15,22 +17,27 @@ import {
   ProfileIcon,
   PostIcon,
   Post,
+  H1,
 } from "./styles";
 
 const Main = () => {
   return (
     <Container>
       <Header>
+        {/* <H1>Home</H1> */}
         <button>
           <BackIcon />
         </button>
-        <InfoProfile />
+        {/* <InfoProfile /> */}
         {/* se for o usuario logado: */}
-        {/* <InfoProfileUser /> */}
+        <InfoProfileUser />
       </Header>
 
-      {/* <ProfilePage /> */}
-      <ProfileVisit />
+      <ProfilePage />
+      {/* <ProfileVisit /> */}
+
+      <PostBox />
+      {/* <NewPost /> */}
       {/* <PaginaInicial /> */}
 
       <BottomMenu>

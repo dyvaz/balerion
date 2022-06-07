@@ -36,7 +36,7 @@ const Tweet = () => {
           </Header>
 
           {/* eslint-disable-next-line jsx-a11y/accessible-emoji */}
-          <Description>aaaaaaaaaaaaaaaaaaaaaa</Description>
+          <Description>New post</Description>
 
           <ImageContent />
 

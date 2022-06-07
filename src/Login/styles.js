@@ -47,7 +47,7 @@ export const Button = styled.button`
   border: none;
   border-radius: 29.5px;
   color: #fff;
-  margin: 30px;
+  margin: 20px 30px;
   font-weight: bold;
   background-color: var(--twitter-dark-hover);
   cursor: pointer;
@@ -65,6 +65,9 @@ export const Button = styled.button`
       background: var(--twitter-light-hover);
     }
   }
+  &.edit {
+    margin-top: 20px;
+  }
 `;
 export const Link = styled.div`
   padding: 0 0 15px 0;
@@ -74,6 +77,10 @@ export const Link = styled.div`
   cursor: pointer;
   &:hover {
     color: var(--twitter-light-hover);
+  }
+  &.confirm {
+    font-size: 15px;
+    padding: 0;
   }
 `;
 export const Exit = styled.div`

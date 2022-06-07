@@ -19,15 +19,6 @@ export const Retweeted = styled.div`
   font-size: 13px;
   color: var(--gray);
 `;
-// export const Rtt = styled(Retweet)`
-//   width: 16px;
-//   height: 16px;
-//   margin-left: 35px;
-//   margin-right: 9px;
-//   > path {
-//     fill: var(--gray);
-//   }
-// `;
 
 export const Body = styled.div`
   display: flex;
