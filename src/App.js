@@ -4,6 +4,7 @@ import GlobalStyles from "./styles/GlobalStyles";
 import RecuperarSenha from "./Recuperar";
 import Layout from "./Components/Layout";
 import { Confirm, ConfirmModal, ErrorConfirm } from "./Confirm";
+import { EditProfile } from "./Components/EditProfile";
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       {/* colocar o x pra volter
        */}
       {/* <Login /> */}
-      <Layout />
+      {/* <Layout /> */}
+      <EditProfile />
       {/* <New /> */}
       {/* <RecuperarSenha /> */}
       {/* <Confirm /> */}

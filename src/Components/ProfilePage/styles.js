@@ -22,8 +22,8 @@ export const Banner = styled.div`
 `;
 
 export const Avatar = styled.div`
-  width: max(45px, min(135px, 22vw));
-  height: max(45px, min(135px, 22vw));
+  width: max(100px, min(135px, 23vw));
+  height: max(100px, min(135px, 23vw));
   border: 3.75px solid var(--primary);
   background: var(--gray);
   border-radius: 50%;

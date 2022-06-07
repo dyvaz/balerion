@@ -26,7 +26,8 @@ export const Header = styled.div`
   display: flex;
   align-items: center;
   text-align: left;
-  padding: 8px 0 9px 13px;
+  //padding: 8px 0 9px 13px;
+  height:55px;
   border-bottom: 1px solid var(--outline);
 
   > button {
