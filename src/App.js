@@ -12,8 +12,8 @@ function App() {
       {/* colocar o x pra volter
        */}
       {/* <Login /> */}
-      {/* <Layout /> */}
-      <EditProfile />
+      <Layout />
+      {/* <EditProfile /> */}
       {/* <New /> */}
       {/* <RecuperarSenha /> */}
       {/* <Confirm /> */}

@@ -26,12 +26,12 @@ const MenuBar = () => {
           <span>Página Inicial</span>
         </MenuButton>
 
-        <MenuButton>
+        <MenuButton className="active">
           <BellIcon />
           <span>Notificações</span>
         </MenuButton>
 
-        <MenuButton className="active">
+        <MenuButton>
           <ProfileIcon />
           <span>Perfil</span>
         </MenuButton>

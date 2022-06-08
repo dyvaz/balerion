@@ -135,6 +135,11 @@ export const Status = styled.div`
 const iconCSS = css`
   width: 19px;
   height: 19px;
+  &.notf {
+    width: 39px;
+    height: 39px;
+    text-align: left;
+  }
 `;
 
 export const CommentIcon = styled(Chat)`

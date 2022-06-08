@@ -9,9 +9,11 @@ import {
 import { Pencil } from "@styled-icons/octicons/Pencil";
 
 export const Container = styled.div`
-  display: flex;
+  // display: flex;
   flex-direction: column;
   width: min(655px, 100%);
+  height: 100vh;
+
   @media (min-width: 500px) {
     border-left: 1px solid var(--outline);
     border-right: 1px solid var(--outline);

@@ -4,7 +4,6 @@ import { ProfilePage, InfoProfileUser } from "../ProfilePage";
 import PaginaInicial from "../PaginaInicial";
 import { ProfileVisit, InfoProfile } from "../Profile";
 import NewPost from "../NewPost";
-import PostBox from "../PostBox";
 import {
   Container,
   Header,
@@ -24,21 +23,20 @@ const Main = () => {
   return (
     <Container>
       <Header>
-        {/* <H1>Home</H1> */}
+        {/* substiruir o botao de voltar pelo avatar */}
         <button>
           <BackIcon />
         </button>
+        <H1>Home</H1>
         {/* <InfoProfile /> */}
         {/* se for o usuario logado: */}
-        <InfoProfileUser />
+        {/* <InfoProfileUser /> */}
       </Header>
 
-      <ProfilePage />
+      {/* <ProfilePage /> */}
       {/* <ProfileVisit /> */}
-
-      <PostBox />
       {/* <NewPost /> */}
-      {/* <PaginaInicial /> */}
+      <PaginaInicial />
 
       <BottomMenu>
         <HomeIcon />

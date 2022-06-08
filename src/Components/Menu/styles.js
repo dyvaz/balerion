@@ -97,6 +97,9 @@ export const MenuButton = styled.button`
       color: var(--twitter);
       fill: var(--twitter);
     }
+    &:hover {
+      background: var(--twitter-dark-hover);
+    }
   }
 `;
 

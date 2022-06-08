@@ -4,7 +4,7 @@ import { Container, Wrapper } from "./styles";
 import Main from "../Main";
 import Menu from "../Menu";
 import SideBar from "../SideBar";
-import { ProfileVisit } from "../Profile";
+import Notifications from "../Notifications";
 
 const Layout = () => {
   return (
@@ -12,6 +12,7 @@ const Layout = () => {
       <Wrapper>
         <Menu />
         <Main />
+        {/* <Notifications /> */}
         <SideBar />
       </Wrapper>
     </Container>
