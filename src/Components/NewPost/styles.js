@@ -4,9 +4,9 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   height: 120px;
-  border: 1px solid var(--outline);
+  border-top: 1px solid var(--outline);
+  border-bottom: 1px solid var(--outline);
   max-width: 100%;
-  border-radius: 25px;
 `;
 export const Body = styled.div`
   margin-top: 37px;

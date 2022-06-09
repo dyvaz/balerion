@@ -23,22 +23,23 @@ const MenuBar = () => {
 
         <MenuButton>
           <HomeIcon />
-          <span>Página Inicial</span>
+          <span className="bolinha" data-count=""></span>
+          <span className="name">Página Inicial</span>
         </MenuButton>
 
         <MenuButton className="active">
           <BellIcon />
-          <span>Notificações</span>
+          <span className="name">Notificações</span>
         </MenuButton>
 
         <MenuButton>
           <ProfileIcon />
-          <span>Perfil</span>
+          <span className="name">Perfil</span>
         </MenuButton>
 
         <MenuButton className="post">
           <PostIcon />
-          <span>Postar</span>
+          <span className="name">Postar</span>
         </MenuButton>
       </Topside>
 

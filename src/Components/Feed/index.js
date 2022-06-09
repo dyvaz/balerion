@@ -1,6 +1,6 @@
 import React from "react";
 
-import Tweet from "../Tweet";
+import { Tweet, TweetComFoto } from "../Tweet";
 
 import { Container, Tab, Tweets } from "./styles";
 
@@ -9,10 +9,10 @@ const Feed = () => {
     <Container>
       <Tweets>
         <Tweet />
+        <TweetComFoto />
+        <TweetComFoto />
         <Tweet />
-        <Tweet />
-        <Tweet />
-        <Tweet />
+        <TweetComFoto />
       </Tweets>
     </Container>
   );

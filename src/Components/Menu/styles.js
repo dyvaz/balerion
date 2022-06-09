@@ -13,7 +13,7 @@ export const Container = styled.div`
     position: sticky;
     top: 0;
     left: 0;
-    padding: 0 19px 0 20px;
+    padding: 0 30px 0 30px;
     max-height: 100vh;
     overflow-y: auto;
   }
@@ -40,10 +40,25 @@ export const MenuButton = styled.button`
   display: flex;
   align-items: center;
   flex-shrink: 0;
+
   > span {
-    display: none;
+    &.name {
+      display: none;
+    }
+    &.bolinha[data-count]:after {
+      width: 10px;
+      height: 10px;
+      position: absolute;
+      content: attr(data-count);
+      border-radius: 50%;
+      color: white;
+      background: var(--twitter);
+      margin-left: -17px;
+      margin-top: -17px;
+    }
   }
-  @media (min-width: 1280px) {
+
+  @media (min-width: 1380px) {
     > span {
       display: inline;
       margin-left: 9px;
@@ -64,7 +79,7 @@ export const MenuButton = styled.button`
     > span {
       display: none;
     }
-    @media (min-width: 1280px) {
+    @media (min-width: 1380px) {
       width: 100%;
       height: unset;
       > span {
@@ -138,7 +153,7 @@ export const Avatar = styled.div`
 
 export const ProfileData = styled.div`
   display: none;
-  @media (min-width: 1280px) {
+  @media (min-width: 1380px) {
     display: flex;
     flex-direction: column;
     margin-left: 10px;
@@ -151,7 +166,7 @@ export const ProfileData = styled.div`
 
 export const ExitIcon = styled(ExitToApp)`
   display: none;
-  @media (min-width: 1280px) {
+  @media (min-width: 1480px) {
     display: inline-block;
     width: 25px;
     height: 25px;

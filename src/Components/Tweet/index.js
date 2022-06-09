@@ -15,41 +15,34 @@ import {
   CommentIcon,
   RetweetIcon,
   LikeIcon,
+  VerifiedIcon,
+  LockIcon,
 } from "./styles";
 
-const Tweet = () => {
+export const Tweet = () => {
   return (
     <Container>
-      <Retweeted>
-        <RetweetIcon />
-        Você retweetou
-      </Retweeted>
       <Body>
         <Avatar />
-
         <Content>
           <Header>
-            <strong>Dyanna</strong>
+            <strong>Dyanna</strong> <LockIcon />
             <span>@dyvaz</span>
             <Dot />
             <time>1 de jun</time>
           </Header>
 
           {/* eslint-disable-next-line jsx-a11y/accessible-emoji */}
-          <Description>New post</Description>
-
-          <ImageContent />
+          <Description>Teste sem foto</Description>
 
           <Icons>
-            <Status>
-              <CommentIcon />
-              18
+            <Status className="post">
+              <CommentIcon />1
             </Status>
-            <Status>
-              <RetweetIcon />
-              18
-            </Status>
-            <Status>
+
+            <RetweetIcon />
+
+            <Status className="post">
               <LikeIcon />
               999
             </Status>
@@ -59,5 +52,44 @@ const Tweet = () => {
     </Container>
   );
 };
+export const TweetComFoto = () => {
+  return (
+    <Container>
+      <Retweeted>
+        <RetweetIcon />
+        Você retweetou
+      </Retweeted>
+      <Body>
+        <Avatar />
+        <Content>
+          <Header>
+            <strong>Ana</strong> <VerifiedIcon />
+            <span>@user123</span>
+            <Dot />
+            <time>1 de jun</time>
+          </Header>
 
-export default Tweet;
+          {/* eslint-disable-next-line jsx-a11y/accessible-emoji */}
+          <Description>New post com foto</Description>
+
+          <ImageContent />
+
+          <Icons>
+            <Status className="post">
+              <CommentIcon />
+              18
+            </Status>
+            <Status className="post">
+              <RetweetIcon />
+              18
+            </Status>
+            <Status className="post">
+              <LikeIcon />
+              999
+            </Status>
+          </Icons>
+        </Content>
+      </Body>
+    </Container>
+  );
+};

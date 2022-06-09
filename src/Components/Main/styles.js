@@ -11,7 +11,7 @@ import { Pencil } from "@styled-icons/octicons/Pencil";
 export const Container = styled.div`
   // display: flex;
   flex-direction: column;
-  width: min(655px, 100%);
+  width: min(700px, 100%);
   height: 100vh;
 
   @media (min-width: 500px) {

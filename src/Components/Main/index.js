@@ -18,6 +18,8 @@ import {
   Post,
   H1,
 } from "./styles";
+import PostOlny from "../Post";
+import { Following, Followers } from "../FollList";
 
 const Main = () => {
   return (
@@ -32,11 +34,13 @@ const Main = () => {
         {/* se for o usuario logado: */}
         {/* <InfoProfileUser /> */}
       </Header>
-
       {/* <ProfilePage /> */}
       {/* <ProfileVisit /> */}
       {/* <NewPost /> */}
-      <PaginaInicial />
+      {/* <PaginaInicial /> */}
+      {/* <PostOlny /> */}
+      {/* <Following /> */}
+      <Followers />
 
       <BottomMenu>
         <HomeIcon />
