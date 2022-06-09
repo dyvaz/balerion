@@ -18,7 +18,7 @@ export const ConfirmModal = () => {
         <Title>Confirm your email</Title>
         <p>Please confirm your email adress</p>
         {/* adivionar igone de ver a senha */}
-        <Button>Confirm</Button>
+        <Button onclick="<Confirm/>">Confirm</Button>
         <p>or</p>
         <Button className="edit">Edit</Button>
         {/* o botao leva para a telade login */}

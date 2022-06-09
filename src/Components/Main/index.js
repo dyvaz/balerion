@@ -20,6 +20,7 @@ import {
 } from "./styles";
 import PostOlny from "../Post";
 import { Following, Followers } from "../FollList";
+import Modal from "../Modal";
 
 const Main = () => {
   return (
@@ -34,13 +35,20 @@ const Main = () => {
         {/* se for o usuario logado: */}
         {/* <InfoProfileUser /> */}
       </Header>
+
       {/* <ProfilePage /> */}
       {/* <ProfileVisit /> */}
-      {/* <NewPost /> */}
+      {/* o new post no mobile é uma pagina unica */}
+      <NewPost />
+
       {/* <PaginaInicial /> */}
+      {/* o modal é quando abre em tela grande */}
+      {/* <Modal /> */}
+
       {/* <PostOlny /> */}
+
       {/* <Following /> */}
-      <Followers />
+      {/* <Followers /> */}
 
       <BottomMenu>
         <HomeIcon />

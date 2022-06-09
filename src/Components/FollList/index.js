@@ -19,6 +19,7 @@ export const Following = () => {
       </Item>
       <Item>
         <User1 />
+        {/* o placehouder muda pra unfollow */}
         <Button>Following</Button>
       </Item>
     </Tudo>

@@ -3,20 +3,53 @@ import styled from "styled-components";
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  height: 120px;
-  border-top: 1px solid var(--outline);
-  border-bottom: 1px solid var(--outline);
+  height: 100vh;
+  padding: 0 15px;
   max-width: 100%;
+  @media (min-width: 800px) {
+    background-color: var(--twitter-dark-hover);
+    color: #000;
+    width: 50%;
+    height: 30%;
+    border-radius: 20px;
+  }
+`;
+
+export const ModalBox = styled.div`
+  @media (min-width: 800px) {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 `;
 export const Body = styled.div`
+  width: 97%;
+  height: 165px;
   margin-top: 37px;
   display: flex;
-  position: relative;
+`;
+
+export const Border = styled.div`
+  max-width: 650px;
+  border-bottom: 1px solid var(--outline);
+  @media (min-width: 900px) {
+    max-width: 600px;
+    border-bottom: 1px solid var(--outline);
+  }
+
+  margin-left: 2%;
 `;
 export const Text = styled.textarea`
   width: 100%;
-  height: 46px;
-  padding: 13px 0px 0 65px;
+  height: 100px;
+  padding: 13px 0px 0 70px;
   font-size: 20px;
   outline: none;
   resize: none;
@@ -32,13 +65,15 @@ export const Avatar = styled.div`
 `;
 
 export const Botao = styled.button`
-  margin-right: 10px;
+  z-index: 2;
+  float: rigth;
   background-color: var(--twitter);
-  align-items: center;
-  flex-shrink: 0;
+  margin-left: auto;
+  margin-top: -48px;
+  position: sticky;
   font-weight: bold;
-  height: 49px;
-  width: 100px;
+  height: 40px;
+  width: 80px;
   cursor: pointer;
   border-radius: 55px;
   &:hover {
@@ -46,7 +81,7 @@ export const Botao = styled.button`
       color: var(--twitter);
     }
     &:hover {
-      background: var(--twitter-dark-hover);
+      background-color: var(--twitter-light-hover);
     }
   }
 `;

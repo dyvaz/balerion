@@ -42,6 +42,9 @@ export const Header = styled.div`
       background: var(--twitter-dark-hover);
     }
   }
+  &.modal{
+    background: transparent;
+  }
 `;
 export const H1 = styled.h1`
   font-size: 20px;

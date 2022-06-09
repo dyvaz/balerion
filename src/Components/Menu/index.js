@@ -21,13 +21,13 @@ const MenuBar = () => {
       <Topside>
         <Logo />
 
-        <MenuButton>
+        <MenuButton className="active">
           <HomeIcon />
           <span className="bolinha" data-count=""></span>
           <span className="name">Página Inicial</span>
         </MenuButton>
 
-        <MenuButton className="active">
+        <MenuButton>
           <BellIcon />
           <span className="name">Notificações</span>
         </MenuButton>

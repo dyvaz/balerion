@@ -53,7 +53,7 @@ export const MenuButton = styled.button`
       border-radius: 50%;
       color: white;
       background: var(--twitter);
-      margin-left: -17px;
+      margin-left: -20px;
       margin-top: -17px;
     }
   }
