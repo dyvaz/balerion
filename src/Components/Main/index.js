@@ -4,9 +4,10 @@ import { ProfilePage, InfoProfileUser } from "../ProfilePage";
 import PaginaInicial from "../PaginaInicial";
 import { ProfileVisit, InfoProfile } from "../Profile";
 import NewPost from "../NewPost";
+import Header from "../Header";
+import Notifications from "../Notifications";
 import {
   Container,
-  Header,
   BackIcon,
   ProfileInfo,
   BottomMenu,
@@ -25,31 +26,18 @@ import Modal from "../Modal";
 const Main = () => {
   return (
     <Container>
-      <Header>
-        {/* substiruir o botao de voltar pelo avatar */}
-        <button>
-          <BackIcon />
-        </button>
-        <H1>Home</H1>
-        {/* <InfoProfile /> */}
-        {/* se for o usuario logado: */}
-        {/* <InfoProfileUser /> */}
-      </Header>
-
+      <Header />
       {/* <ProfilePage /> */}
       {/* <ProfileVisit /> */}
       {/* o new post no mobile é uma pagina unica */}
-      <NewPost />
-
+      {/* <NewPost /> */}
       {/* <PaginaInicial /> */}
+      <Notifications />
       {/* o modal é quando abre em tela grande */}
       {/* <Modal /> */}
-
       {/* <PostOlny /> */}
-
       {/* <Following /> */}
       {/* <Followers /> */}
-
       <BottomMenu>
         <HomeIcon />
         <SearchIcon />

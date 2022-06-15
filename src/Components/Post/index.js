@@ -6,7 +6,6 @@ import {
   Container,
   Body,
   Post,
-  Retweeted,
   Avatar,
   Content,
   Header,
@@ -34,7 +33,6 @@ const PostOlny = () => {
               <span>@dyvaz</span>
             </Header>
 
-            {/* eslint-disable-next-line jsx-a11y/accessible-emoji */}
             <Text>Teste sem foto</Text>
             <T>
               <p>
@@ -55,7 +53,7 @@ const PostOlny = () => {
             </Icons>
           </Content>
         </Post>
-        <NewPost />
+        {/* <NewPost /> */}
         <Tweet />
         <TweetComFoto />
       </Body>

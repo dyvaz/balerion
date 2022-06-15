@@ -12,7 +12,7 @@ import {
   Followage,
   ButtonA,
 } from "./styles";
-import { ProfileInfo } from "../Main/styles";
+import { ProfileInfo } from "../Header/styles";
 export const ProfilePage = () => {
   return (
     <Container>

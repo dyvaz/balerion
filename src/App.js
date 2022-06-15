@@ -5,23 +5,28 @@ import RecuperarSenha from "./Recuperar";
 import Layout from "./Components/Layout";
 import { Confirm, ConfirmModal, ErrorConfirm } from "./Confirm";
 import { EditProfile } from "./Components/EditProfile";
-import NewPost from "./Components/NewPost";
+
 import Login from "./Login";
+import New from "./NewAccount";
 
 function App() {
   return (
     <>
       {/* colocar o x pra volter
        */}
-      <Login />
-      {/* <Layout /> */}
-      {/* <NewPost /> */}
+      {/* <Login /> */}
+
+      <Layout />
 
       {/* <EditProfile /> */}
+
       {/* <New /> */}
+
       {/* <RecuperarSenha /> */}
-      <Confirm />
-      <ConfirmModal />
+
+      {/* <Confirm /> */}
+      {/* <ConfirmModal /> */}
+
       {/* <ErrorConfirm /> */}
 
       <GlobalStyles />

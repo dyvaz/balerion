@@ -12,7 +12,7 @@ import {
   Followage,
   ButtonA,
 } from "../ProfilePage/styles";
-import { ProfileInfo } from "../Main/styles";
+import { ProfileInfo } from "../Header/styles";
 
 export const ProfileVisit = () => {
   return (
