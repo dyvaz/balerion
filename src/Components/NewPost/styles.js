@@ -15,6 +15,15 @@ export const Container = styled.div`
   }
 `;
 
+export const He = styled.div`
+  align-items: center;
+  flex-direction: row;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  display: flex;
+`;
+
 export const ModalBox = styled.div`
   @media (min-width: 800px) {
     width: 100%;
@@ -62,26 +71,4 @@ export const Avatar = styled.div`
   flex-shrink: 0;
   background: var(--gray);
   position: absolute;
-`;
-
-export const Botao = styled.button`
-  z-index: 2;
-  float: rigth;
-  background-color: var(--twitter);
-  margin-left: auto;
-  margin-top: -48px;
-  position: sticky;
-  font-weight: bold;
-  height: 40px;
-  width: 80px;
-  cursor: pointer;
-  border-radius: 55px;
-  &:hover {
-    > span {
-      color: var(--twitter);
-    }
-    &:hover {
-      background-color: var(--twitter-light-hover);
-    }
-  }
 `;

@@ -1,9 +1,10 @@
 import styled, { css } from "styled-components";
 
-import { Chat, Favorite } from "../../styles/Icons";
+import { Favorite } from "../../styles/Icons";
 import { Retweet } from "@styled-icons/evil/Retweet";
 import { Verified } from "@styled-icons/material-rounded/Verified";
 import { Lock } from "@styled-icons/boxicons-solid/Lock";
+import { Chat1 } from "@styled-icons/remix-line/Chat1";
 
 // @styled-icons/evil/Retweet
 
@@ -48,17 +49,14 @@ export const Content = styled.div`
 export const Header = styled.div`
   display: flex;
   align-items: center;
-  font-size: 15px;
+  font-size: 17px;
   white-space: nowrap;
-  > strong {
-    margin-right: 5px;
-  }
   > span,
   time {
     color: var(--gray);
   }
-  > strong,
-  span {
+  > span {
+    padding: 10px 0;
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
@@ -146,7 +144,7 @@ const iconCSS = css`
   }
 `;
 
-export const CommentIcon = styled(Chat)`
+export const CommentIcon = styled(Chat1)`
   ${iconCSS}
 `;
 export const RetweetIcon = styled(Retweet)`
@@ -154,11 +152,11 @@ export const RetweetIcon = styled(Retweet)`
 `;
 export const VerifiedIcon = styled(Verified)`
   ${iconCSS}
-  padding-right:5px;
+  padding:0 3px;
 `;
 export const LockIcon = styled(Lock)`
   ${iconCSS}
-  padding-right:5px;
+  padding:0 3px;
 `;
 
 export const LikeIcon = styled(Favorite)`

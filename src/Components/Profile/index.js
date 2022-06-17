@@ -10,9 +10,9 @@ import {
   LocationIcon,
   CakeIcon,
   Followage,
-  ButtonA,
 } from "../ProfilePage/styles";
 import { ProfileInfo } from "../Header/styles";
+import { LargeButton } from "../Button/styles";
 
 export const ProfileVisit = () => {
   return (
@@ -22,15 +22,14 @@ export const ProfileVisit = () => {
       </Banner>
 
       <ProfileData>
-        <ButtonA outlined>Seguir</ButtonA>
+        <LargeButton className="edit" outlined>
+          Seguir
+        </LargeButton>
         {/* se eu ja seguir */}
         {/* <ButtonA outlined>Seguindo</ButtonA> */}
         {/* e o houver */}
         {/* <ButtonA outlined>Deixar de seguir</ButtonA> */}
-
-        <h1>Tarcisio</h1>
-        <h2>@tx</h2>
-
+        <h1>@tx</h1>
         <ul>
           <li>
             <LocationIcon />
@@ -61,7 +60,6 @@ export const ProfileVisit = () => {
 export const InfoProfile = () => {
   return (
     <ProfileInfo>
-      <strong>Tarcisio</strong>
       <span>19 Posts</span>
     </ProfileInfo>
   );

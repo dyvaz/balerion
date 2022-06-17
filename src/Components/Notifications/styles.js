@@ -4,7 +4,6 @@ export const Avatar = styled.div`
   width: 49px;
   height: 49px;
   border-radius: 50%;
-  // flex-shrink: 0;
   background: var(--gray);
   position: absolute;
 `;
@@ -19,20 +18,16 @@ export const Title = styled.div`
   display: flex;
   width: 100%;
   cursor: pointer;
-  > strong {
-    margin-right: 5px;
-  }
   > time {
     padding-left: 8px;
   }
 `;
 export const Section = styled.section`
-  margin-top: 6px;
+  padding-top: 5px;
   max-height: 100%;
   display: flex;
-  // flex-shrink: 0;
   min-height: 100px;
-  border-bottom: 1px solid var(--outline);
+  border-top: 1px solid var(--outline);
 `;
 export const Content = styled.div`
   font-size: 17px;

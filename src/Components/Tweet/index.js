@@ -26,8 +26,7 @@ export const Tweet = () => {
         <Avatar />
         <Content>
           <Header>
-            <strong>Dyanna</strong> <LockIcon />
-            <span>@dyvaz</span>
+            <span>@dyvaz</span> <LockIcon />
             <Dot />
             <time>1 de jun</time>
           </Header>
@@ -63,8 +62,7 @@ export const TweetComFoto = () => {
         <Avatar />
         <Content>
           <Header>
-            <strong>Ana</strong> <VerifiedIcon />
-            <span>@user123</span>
+            <span>@user123</span> <VerifiedIcon />
             <Dot />
             <time>1 de jun</time>
           </Header>

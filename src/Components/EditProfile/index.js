@@ -1,7 +1,7 @@
 import React from "react";
 
-import { Banner, Avatar, ButtonA } from "../ProfilePage/styles";
-import { ProfileInfo, BackIcon, Header } from "../Main/styles";
+import { Banner, Avatar } from "../ProfilePage/styles";
+import { ProfileInfo } from "../Main/styles";
 import { EditBirth } from "../EditBirth";
 
 import {
@@ -15,17 +15,16 @@ import {
   Button,
   P,
 } from "./styles";
+import Header from "../Header";
+import { LargeButton } from "../Button/styles";
 
 export const EditProfile = () => {
   return (
     <Container>
       <Header>
-        <button>
-          <BackIcon />
-        </button>
         <ProfileInfo>
           <strong>Edit profile</strong>
-          <ButtonA outlined>save</ButtonA>
+          <LargeButton outlined>save</LargeButton>
         </ProfileInfo>
       </Header>
 
@@ -34,7 +33,7 @@ export const EditProfile = () => {
       </Banner>
       <Body>
         <Text maxLength="50">
-          <Sp>Name</Sp>
+          <Sp>Username</Sp>
           <Input className="name" />
         </Text>
 

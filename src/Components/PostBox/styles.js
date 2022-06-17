@@ -32,23 +32,3 @@ export const Avatar = styled.div`
   background: var(--gray);
   position: absolute;
 `;
-
-export const Botao = styled.button`
-  margin-right: 10px;
-  background-color: var(--twitter);
-  align-items: center;
-  flex-shrink: 0;
-  font-weight: bold;
-  height: 49px;
-  width: 100px;
-  cursor: pointer;
-  border-radius: 55px;
-  &:hover {
-    > span {
-      color: var(--twitter);
-    }
-    &:hover {
-      background: var(--twitter-dark-hover);
-    }
-  }
-`;

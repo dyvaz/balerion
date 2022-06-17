@@ -1,7 +1,7 @@
 import React from "react";
 
 import { Container, Body, Avatar, Text, Botao } from "./styles";
-//import { MenuButton } from "../Menu/styles";
+import { LargeButton } from "../Button/styles";
 
 const PostBox = () => {
   return (
@@ -9,13 +9,10 @@ const PostBox = () => {
       <Body>
         <Avatar />
         <Text placeholder="O que esta acontecendo?" maxLength="140" />
-        {/* <PostIcons /> */}
-
-        <Botao className="post">
+        <LargeButton>
           <span>Postar</span>
-        </Botao>
+        </LargeButton>
       </Body>
-      {/*botoes de imagem/sticker? */}
     </Container>
   );
 };

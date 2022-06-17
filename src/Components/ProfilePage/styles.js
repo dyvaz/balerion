@@ -89,28 +89,3 @@ export const Followage = styled.div`
     }
   }
 `;
-
-export const ButtonA = styled.button`
-  background: transparent;
-  color: var(--twitter);
-  border: 1px solid var(--twitter);
-  padding: 16px;
-  border-radius: 25px;
-  font-weight: bold;
-  font-size: 15px;
-  cursor: pointer;
-  outline: 0;
-  &:hover {
-    background: var(--twitter-dark-hover);
-  }
-  position: absolute;
-  top: 2vw;
-  right: 7px;
-  padding: 4px 16px;
-  font-size: 13px;
-  @media (min-width: 320px) {
-    top: 10px;
-    padding: 10px 19px;
-    font-size: 15px;
-  }
-`;

@@ -3,7 +3,6 @@ import React from "react";
 //import { Container } from "../Feed/styles";
 import { Tudo, Nav, A, Item, Button } from "./styles";
 import { User1, User2 } from "../User";
-import { ButtonA } from "../ProfilePage/styles";
 
 export const Following = () => {
   return (

@@ -9,8 +9,6 @@ export const Container = styled.div`
   top: 0;
   z-index: 2;
   display: flex;
-  width: min(700px, 100%);
-  height: 6vh;
 `;
 export const H1 = styled.div`
   height: 50px;

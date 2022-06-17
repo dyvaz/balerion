@@ -24,13 +24,12 @@ const PostOlny = () => {
     <Container>
       <Body>
         <Post>
-          <Avatar />
           <Content>
             <Header>
-              <strong>
-                Dyanna <LockIcon />
-              </strong>
-              <span>@dyvaz</span>
+              <Avatar />
+              <span>
+                @dyvaz <LockIcon />
+              </span>
             </Header>
 
             <Text>Teste sem foto</Text>
@@ -53,7 +52,9 @@ const PostOlny = () => {
             </Icons>
           </Content>
         </Post>
+
         {/* <NewPost /> */}
+
         <Tweet />
         <TweetComFoto />
       </Body>

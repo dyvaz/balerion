@@ -16,7 +16,7 @@ const New = () => {
       <Box>
         <Logo />
         <Title>Create yout account</Title>
-        <Input type="text" placeholder="    Name" />
+        <Input type="text" placeholder="    Username" />
         <Input type="email" placeholder="    Email or number" />
         <Input type="password" placeholder="    Password" />
         <Input type="password" placeholder="    Confirm assword" />

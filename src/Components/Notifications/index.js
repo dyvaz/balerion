@@ -13,9 +13,7 @@ const Notfications = () => {
         <Box>
           {/* toda a box vai ser um botao/link para o post */}
           <Title>
-            <strong>Tarcisio </strong>
             <span>@tx</span>
-
             <time>2h</time>
           </Title>
           {/* eslint-disable-next-line jsx-a11y/accessible-emoji */}
@@ -33,9 +31,7 @@ const Notfications = () => {
         <Avatar />
         <Box>
           <Title>
-            <strong>Tarcisio </strong>
             <span>@tx</span>
-
             <time>2h</time>
           </Title>
           {/* eslint-disable-next-line jsx-a11y/accessible-emoji */}

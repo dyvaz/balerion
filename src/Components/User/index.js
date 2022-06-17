@@ -9,7 +9,6 @@ export const User1 = () => {
       <Avatar />
       <Box>
         <Header>
-          <strong>Tarcisio </strong>
           <span className="">@tx</span>
         </Header>
       </Box>
@@ -23,7 +22,6 @@ export const User2 = () => {
       <Avatar />
       <Box>
         <Header>
-          <strong>Ana </strong>
           <span className="">@user124</span>
         </Header>
       </Box>

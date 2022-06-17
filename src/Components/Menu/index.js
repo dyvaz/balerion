@@ -4,7 +4,6 @@ import {
   Container,
   Topside,
   Logo,
-  MenuButton,
   PostIcon,
   HomeIcon,
   BellIcon,
@@ -14,13 +13,13 @@ import {
   ProfileData,
   ExitIcon,
 } from "./styles";
+import { MenuButton } from "../Button/styles";
 
 const MenuBar = () => {
   return (
     <Container>
       <Topside>
         <Logo />
-
         <MenuButton className="active">
           <HomeIcon />
           <span className="name">Página Inicial</span>
@@ -46,7 +45,6 @@ const MenuBar = () => {
       <Botside>
         <Avatar />
         <ProfileData>
-          <strong>Dyanna</strong>
           <span>@dyvaz</span>
         </ProfileData>
         <ExitIcon />

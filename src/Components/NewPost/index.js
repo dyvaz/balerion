@@ -1,30 +1,25 @@
 import React from "react";
 
-import {
-  Container,
-  Body,
-  Avatar,
-  Text,
-  Botao,
-  Border,
-  ModalBox,
-} from "./styles";
+import { Container, Body, Avatar, Text, Border, ModalBox, He } from "./styles";
 //import { MenuButton } from "../Menu/styles";
-import { Header, BackIcon, H1 } from "../Main/styles";
+import { H1, BackIcon } from "../Header/styles";
+import { LargeButton } from "../Button/styles";
 
 const NewPost = () => {
   return (
     <ModalBox>
       <Container>
-        <Header className="modal">
+        <He>
           <button>
             <BackIcon />
           </button>
-          <H1>New Post</H1>
-        </Header>
-        <Botao className="post">
+          <H1>
+            <h1>Home</h1>
+          </H1>
+        </He>
+        <LargeButton className="post">
           <span>Postar</span>
-        </Botao>
+        </LargeButton>
         <Body>
           <Avatar />
           <Text placeholder="O que esta acontecendo?" maxLength="140" />

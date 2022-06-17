@@ -10,9 +10,11 @@ import {
   LocationIcon,
   CakeIcon,
   Followage,
-  ButtonA,
 } from "./styles";
+
 import { ProfileInfo } from "../Header/styles";
+import { LargeButton } from "../Button/styles";
+
 export const ProfilePage = () => {
   return (
     <Container>
@@ -21,7 +23,7 @@ export const ProfilePage = () => {
       </Banner>
 
       <ProfileData>
-        <ButtonA outlined>Editar perfil</ButtonA>
+        <LargeButton className="edit">Editar perfil</LargeButton>
 
         <h1>Dyanna</h1>
         <h2>@dyvaz</h2>

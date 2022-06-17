@@ -4,7 +4,6 @@ export const Container = styled.div`
   background-color: var(--primary;);
 `;
 export const Wrapper = styled.div`
-  heigth: 100%;
   max-width: 1280px:
   margin:0 auto;
   display: flex;

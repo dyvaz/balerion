@@ -1,18 +1,11 @@
 import styled, { css } from "styled-components";
-import {
-  ArrowLeft,
-  Home,
-  Search,
-  Notifications,
-  Person,
-} from "../../styles/Icons";
+import { Home, Search, Notifications, Person } from "../../styles/Icons";
 import { Pencil } from "@styled-icons/octicons/Pencil";
 
 export const Container = styled.div`
   // display: flex;
   flex-direction: column;
   width: min(700px, 100%);
-  height: 100vh;
 
   @media (min-width: 500px) {
     border-left: 1px solid var(--outline);
@@ -20,41 +13,9 @@ export const Container = styled.div`
   }
 `;
 
-export const Header = styled.div`
-  z-index: 2;
-  position: sticky;
-  top: 0;
-  background: var(--primary);
-  display: flex;
-  align-items: center;
-  text-align: left;
-  //padding: 8px 0 9px 13px;
-  height:55px;
-  border-bottom: 1px solid var(--outline);
-
-  > button {
-    background: var(--primary)
-    padding: 8px;
-    border-radius: 50%;
-    outline: 0;
-    cursor: pointer;
-    &:hover {
-      background: var(--twitter-dark-hover);
-    }
-  }
-  &.modal{
-    background: transparent;
-  }
-`;
 export const H1 = styled.h1`
   font-size: 20px;
   padding: 8px 0 6px 10px;
-`;
-
-export const BackIcon = styled(ArrowLeft)`
-  width: 24px;
-  height: 24px;
-  fill: var(--twitter);
 `;
 
 export const ProfileInfo = styled.div`

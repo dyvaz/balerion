@@ -51,17 +51,11 @@ export const Header = styled.div`
   flex-direction: column;
   padding-left: 5px;
   white-space: nowrap;
-
-  > strong {
+  > span {
     margin-top: 10px;
     font-size: 20px;
     margin-right: 5px;
-  }
-  > span {
     color: gray;
-  }
-  > strong,
-  span {
     text-overflow: ellipsis;
     overflow: hidden;
   }
@@ -71,7 +65,7 @@ export const Text = styled.div`
   font-size: 20px;
   margin: 10px;
   text-align: left;
-  padding: 10px;
+  padding: 20px 0 0 20px;
   margin-left: -60px;
 `;
 

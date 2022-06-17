@@ -8,7 +8,7 @@ const PaginaInicial = () => {
   return (
     <Container>
       {/* o que esta acontecendo */}
-      <PostBox></PostBox>
+      <PostBox />
       <Feed />
     </Container>
   );
