@@ -3,8 +3,16 @@ import styled from "styled-components";
 export const Tudo = styled.div`
   display: flex;
   flex-direction: column;
+  z-index: 30;
+`;
+export const Section = styled.div`
+  display: flex;
+  flex-direction: column;
 `;
 export const Nav = styled.div`
+  position: fixed;
+`;
+export const Top = styled.div`
   display: flex;
   justify-content: space-between;
   border-bottom: 2px solid var(--twitter);

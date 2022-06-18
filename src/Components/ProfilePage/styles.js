@@ -11,6 +11,7 @@ export const Container = styled.div`
   ::-webkit-scrollbar {
     display: none;
   }
+  height: 100vh;
 `;
 
 export const Banner = styled.div`

@@ -1,26 +1,74 @@
 import React from "react";
 
 //import { Container } from "../Feed/styles";
-import { Tudo, Nav, A, Item, Button } from "./styles";
+import { Tudo, Nav, A, Item, Button, Top, Section } from "./styles";
 import { User1, User2 } from "../User";
 
 export const Following = () => {
   return (
     <Tudo>
       <Nav>
-        <A>Followers</A>
-        <A className="active">Following</A>
+        <Top>
+          <A>Followers</A>
+          <A className="active">Following</A>
+        </Top>
       </Nav>
-
-      <Item>
-        <User1 />
-        <Button>Following</Button>
-      </Item>
-      <Item>
-        <User1 />
-        {/* o placehouder muda pra unfollow */}
-        <Button>Following</Button>
-      </Item>
+      <Section>
+        <Item>
+          <User1 />
+          <Button>Following</Button>
+        </Item>
+        <Item>
+          <User1 />
+          {/* o placehouder muda pra unfollow */}
+          <Button>Following</Button>
+        </Item>
+        <Item>
+          <User1 />
+          {/* o placehouder muda pra unfollow */}
+          <Button>Following</Button>
+        </Item>
+        <Item>
+          <User1 />
+          {/* o placehouder muda pra unfollow */}
+          <Button>Following</Button>
+        </Item>
+        <Item>
+          <User1 />
+          {/* o placehouder muda pra unfollow */}
+          <Button>Following</Button>
+        </Item>
+        <Item>
+          <User1 />
+          {/* o placehouder muda pra unfollow */}
+          <Button>Following</Button>
+        </Item>
+        <Item>
+          <User1 />
+          {/* o placehouder muda pra unfollow */}
+          <Button>Following</Button>
+        </Item>
+        <Item>
+          <User1 />
+          {/* o placehouder muda pra unfollow */}
+          <Button>Following</Button>
+        </Item>
+        <Item>
+          <User1 />
+          {/* o placehouder muda pra unfollow */}
+          <Button>Following</Button>
+        </Item>
+        <Item>
+          <User1 />
+          {/* o placehouder muda pra unfollow */}
+          <Button>Following</Button>
+        </Item>
+        <Item>
+          <User1 />
+          {/* o placehouder muda pra unfollow */}
+          <Button>Following</Button>
+        </Item>
+      </Section>
     </Tudo>
   );
 };

@@ -87,6 +87,11 @@ export const MenuButton = styled.button`
       background: var(--twitter-dark-hover);
     }
   }
+  &.search {
+    @media (min-width: 1067px) {
+      display: none;
+    }
+  }
 `;
 export const LargeButton = styled.button`
   margin-right: 10px;

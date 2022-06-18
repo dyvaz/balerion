@@ -1,9 +1,16 @@
 import React from "react";
 
-import { Container } from "../Main/styles";
-
 import { RetweetIcon, LikeIcon } from "../Tweet/styles";
-import { Avatar, Box, Title, Section, Content, Icons, P } from "./styles";
+import {
+  Container,
+  Avatar,
+  Box,
+  Title,
+  Section,
+  Content,
+  Icons,
+  P,
+} from "./styles";
 import Header from "../Header";
 const Notfications = () => {
   return (

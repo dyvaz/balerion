@@ -1,4 +1,15 @@
 import styled from "styled-components";
+
+export const Container = styled.div`
+  flex-direction: column;
+  width: min(700px, 100%);
+  @media (min-width: 500px) {
+    border-left: 1px solid var(--outline);
+    border-right: 1px solid var(--outline);
+  }
+  height: 100vh;
+`;
+
 export const Avatar = styled.div`
   margin: 8px;
   width: 49px;

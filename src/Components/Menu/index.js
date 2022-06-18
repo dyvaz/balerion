@@ -6,6 +6,7 @@ import {
   Logo,
   PostIcon,
   HomeIcon,
+  SearchIcon,
   BellIcon,
   ProfileIcon,
   Botside,
@@ -23,6 +24,11 @@ const MenuBar = () => {
         <MenuButton className="active">
           <HomeIcon />
           <span className="name">Página Inicial</span>
+        </MenuButton>
+
+        <MenuButton className="search">
+          <SearchIcon />
+          <span className="name">Buscar</span>
         </MenuButton>
 
         <MenuButton>

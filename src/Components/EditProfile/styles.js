@@ -17,7 +17,6 @@ export const Text = styled.div`
   height: 100px;
   font-size: 20px;
   outline: none;
-  //resize: none;
 `;
 export const Body = styled.div`
   margin-top: 30px;
@@ -28,7 +27,6 @@ export const Sp = styled.span`
   margin-top: 35px;
   font-size: 15px;
   position: absolute;
-
   padding: 0px 0 0 10px;
   color: var(--twitter-light-hover);
   &.birth {

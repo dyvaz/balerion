@@ -3,10 +3,8 @@ import { Home, Search, Notifications, Person } from "../../styles/Icons";
 import { Pencil } from "@styled-icons/octicons/Pencil";
 
 export const Container = styled.div`
-  // display: flex;
   flex-direction: column;
   width: min(700px, 100%);
-
   @media (min-width: 500px) {
     border-left: 1px solid var(--outline);
     border-right: 1px solid var(--outline);
@@ -42,7 +40,6 @@ export const BottomMenu = styled.div`
   display: flex;
   justify-content: space-between;
   padding: 15px 0 15px 0;
-  // min(4px) max(10px, 10px)
   @media (min-width: 500px) {
     display: none;
   }
@@ -55,7 +52,6 @@ const iconCSS = css`
   &.active {
     fill: var(--twitter);
   }
-
   &.post {
     fill: white;
     width: 29px;
@@ -90,5 +86,3 @@ export const Post = styled.button`
   background: var(--twitter);
   border-radius: 50%;
 `;
-
-//colocar o botao de new post

@@ -2,7 +2,13 @@ import styled, { css } from "styled-components";
 import { Dragon } from "@styled-icons/fa-solid/Dragon";
 import { Pencil } from "@styled-icons/octicons/Pencil";
 
-import { Home, Notifications, Person, ExitToApp } from "../../styles/Icons";
+import {
+  Home,
+  Search,
+  Notifications,
+  Person,
+  ExitToApp,
+} from "../../styles/Icons";
 
 export const Container = styled.div`
   display: none;
@@ -44,6 +50,9 @@ const iconCSS = css`
 export const HomeIcon = styled(Home)`
   ${iconCSS}
 `;
+export const SearchIcon = styled(Search)`
+  ${iconCSS}
+`;
 export const BellIcon = styled(Notifications)`
   ${iconCSS}
 `;
@@ -55,22 +64,25 @@ export const PostIcon = styled(Pencil)`
   ${iconCSS}
 `;
 export const Botside = styled.div`
-  margin-top: 20px;
+  padding: 50px 0;
   display: flex;
   align-items: center;
 `;
 
 export const Avatar = styled.div`
-  width: 39px;
-  height: 39px;
+  width: 45px;
+  height: 45px;
   flex-shrink: 0;
   border-radius: 50%;
   background: var(--gray);
+  &:hover {
+    box-shadow: 0 0 1em gray;
+  }
 `;
 
 export const ProfileData = styled.div`
   display: none;
-  @media (min-width: 1380px) {
+  @media (min-width: 1480px) {
     display: flex;
     flex-direction: column;
     margin-left: 10px;

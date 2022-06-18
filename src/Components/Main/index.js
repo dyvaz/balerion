@@ -31,13 +31,13 @@ const Main = () => {
 
       {/* <NewPost /> */}
 
-      <PaginaInicial />
+      {/* <PaginaInicial /> */}
 
       {/* <Notifications /> */}
 
       {/* <PostOlny /> */}
 
-      {/* <Following /> */}
+      <Following />
       {/* <Followers /> */}
 
       <BottomMenu>

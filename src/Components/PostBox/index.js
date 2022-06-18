@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Container, Body, Avatar, Text, Botao } from "./styles";
+import { Container, Body, Avatar, Text } from "./styles";
 import { LargeButton } from "../Button/styles";
 
 const PostBox = () => {

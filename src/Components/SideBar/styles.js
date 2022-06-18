@@ -11,7 +11,6 @@ export const Container = styled.div`
   }
 `;
 
-//490
 export const SearchWrapper = styled.div`
   padding: 10px 24px;
   width: min(399px, 100%);
