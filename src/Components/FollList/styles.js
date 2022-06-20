@@ -3,18 +3,20 @@ import styled from "styled-components";
 export const Tudo = styled.div`
   display: flex;
   flex-direction: column;
-  z-index: 30;
 `;
 export const Section = styled.div`
   display: flex;
   flex-direction: column;
 `;
 export const Nav = styled.div`
-  position: fixed;
+  top: -0.1px;
+  background-color: black;
+  position: sticky;
+  z-index: 3;
 `;
 export const Top = styled.div`
+  top: 0px;
   display: flex;
-  justify-content: space-between;
   border-bottom: 2px solid var(--twitter);
 `;
 
@@ -52,9 +54,7 @@ export const Button = styled.button`
   }
   width: 150px;
   position: sticky;
-
   padding-left: 5px;
   margin-top: 30px;
-
   margin-right: 20px;
 `;

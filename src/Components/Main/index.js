@@ -23,8 +23,6 @@ import { Following, Followers } from "../FollList";
 const Main = () => {
   return (
     <Container>
-      <Header />
-
       {/* <ProfilePage /> */}
       {/* <ProfileVisit /> */}
       {/* o new post no mobile é uma pagina unica */}

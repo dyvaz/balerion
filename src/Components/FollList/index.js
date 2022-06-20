@@ -3,11 +3,13 @@ import React from "react";
 //import { Container } from "../Feed/styles";
 import { Tudo, Nav, A, Item, Button, Top, Section } from "./styles";
 import { User1, User2 } from "../User";
+import Header from "../Header";
 
 export const Following = () => {
   return (
     <Tudo>
       <Nav>
+        <Header />
         <Top>
           <A>Followers</A>
           <A className="active">Following</A>
