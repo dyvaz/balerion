@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Header } from "../Post/styles";
+import { Cab } from "../Post/styles";
 import { Avatar, Box } from "../Notifications/styles";
 import { Container } from "./styles";
 export const User1 = () => {
@@ -8,9 +8,9 @@ export const User1 = () => {
     <Container>
       <Avatar />
       <Box>
-        <Header>
+        <Cab>
           <span className="">@tx</span>
-        </Header>
+        </Cab>
       </Box>
     </Container>
   );
@@ -21,9 +21,9 @@ export const User2 = () => {
     <Container>
       <Avatar />
       <Box>
-        <Header>
+        <Cab>
           <span className="">@user124</span>
-        </Header>
+        </Cab>
       </Box>
     </Container>
   );

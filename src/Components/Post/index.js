@@ -8,7 +8,7 @@ import {
   Post,
   Avatar,
   Content,
-  Header,
+  Cab,
   Icons,
   Status,
   CommentIcon,
@@ -18,19 +18,21 @@ import {
   Text,
   T,
 } from "./styles";
+import Header from "../Header";
 
 const PostOlny = () => {
   return (
     <Container>
+      <Header />
       <Body>
         <Post>
           <Content>
-            <Header>
+            <Cab>
               <Avatar />
               <span>
                 @dyvaz <LockIcon />
               </span>
-            </Header>
+            </Cab>
 
             <Text>Teste sem foto</Text>
             <T>

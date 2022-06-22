@@ -2,31 +2,19 @@ import React from "react";
 
 import { Banner, Avatar } from "../ProfilePage/styles";
 import { ProfileInfo } from "../Main/styles";
-import { EditBirth } from "../EditBirth";
-
-import {
-  Container,
-  Text,
-  Body,
-  Sp,
-  Input,
-  Bio,
-  Birt,
-  Button,
-  P,
-} from "./styles";
-import Header from "../Header";
+import { BackIcon } from "../Header/styles";
+import { Container, Text, Body, Sp, Input, Bio } from "./styles";
 import { LargeButton } from "../Button/styles";
 
 export const EditProfile = () => {
   return (
     <Container>
-      <Header>
-        <ProfileInfo>
-          <strong>Edit profile</strong>
-          <LargeButton outlined>save</LargeButton>
-        </ProfileInfo>
-      </Header>
+      <ProfileInfo>
+        <strong>Edit profile</strong>
+        <LargeButton className="profile" outlined>
+          save
+        </LargeButton>
+      </ProfileInfo>
 
       <Banner>
         <Avatar />
@@ -41,15 +29,6 @@ export const EditProfile = () => {
           <Sp>Bio</Sp>
           <Bio />
         </Text>
-
-        <Birt>
-          <Sp className="birth">Birth date •</Sp>
-
-          <Button outlined>Edit</Button>
-          <P>August 1, 2003</P>
-        </Birt>
-        {/* o edit birth sera um modal */}
-        <EditBirth />
       </Body>
     </Container>
   );

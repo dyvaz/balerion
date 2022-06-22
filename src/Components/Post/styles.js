@@ -46,7 +46,7 @@ export const Content = styled.div`
   padding-left: 59px;
   position: relative;
 `;
-export const Header = styled.div`
+export const Cab = styled.div`
   display: flex;
   flex-direction: column;
   padding-left: 5px;

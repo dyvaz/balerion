@@ -15,6 +15,7 @@ import Header from "../Header";
 const Notfications = () => {
   return (
     <Container>
+      <Header />
       <Section>
         <Avatar />
         <Box>

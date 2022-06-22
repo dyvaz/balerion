@@ -2,22 +2,16 @@ import React from "react";
 import Feed from "../Feed";
 import { Tab } from "../Feed/styles";
 
-import {
-  Container,
-  Banner,
-  Avatar,
-  ProfileData,
-  LocationIcon,
-  CakeIcon,
-  Followage,
-} from "./styles";
+import { Container, Banner, Avatar, ProfileData, Followage } from "./styles";
 
 import { ProfileInfo } from "../Header/styles";
 import { LargeButton } from "../Button/styles";
+import Header from "../Header";
 
 export const ProfilePage = () => {
   return (
     <Container>
+      <Header />
       <Banner>
         <Avatar />
       </Banner>
@@ -27,18 +21,6 @@ export const ProfilePage = () => {
 
         <h1>Dyanna</h1>
         <h2>@dyvaz</h2>
-
-        <ul>
-          <li>
-            <LocationIcon />
-            Minas Gerais, Brasil
-          </li>
-          <li>
-            <CakeIcon />
-            Nascido(a) em 1 de agosto de 2003
-          </li>
-        </ul>
-
         <Followage>
           <span>
             <strong>999</strong> seguindo

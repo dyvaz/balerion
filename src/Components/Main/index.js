@@ -25,17 +25,16 @@ const Main = () => {
     <Container>
       {/* <ProfilePage /> */}
       {/* <ProfileVisit /> */}
-      {/* o new post no mobile é uma pagina unica */}
 
       {/* <NewPost /> */}
 
-      {/* <PaginaInicial /> */}
+      <PaginaInicial />
 
       {/* <Notifications /> */}
 
       {/* <PostOlny /> */}
 
-      <Following />
+      {/* <Following /> */}
       {/* <Followers /> */}
 
       <BottomMenu>

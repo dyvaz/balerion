@@ -6,7 +6,7 @@ const SideBar = () => {
   return (
     <Container>
       <SearchWrapper>
-        <SearchInput placeholder="Buscar no Twitter" />
+        <SearchInput placeholder="Buscar" />
         <SearchIcon />
       </SearchWrapper>
     </Container>

@@ -1,7 +1,5 @@
 import styled, { css } from "styled-components";
 
-import { LocationOn, Cake } from "../../styles/Icons";
-
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
@@ -52,38 +50,13 @@ export const ProfileData = styled.div`
       color: var(--twitter);
     }
   }
-  > ul {
-    list-style: none;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    > li {
-      font-size: 15px;
-      color: var(--gray);
-      > svg {
-        fill: var(--gray);
-        margin-right: 5px;
-      }
-    }
-  }
-`;
-
-const iconCSS = css`
-  width: 20px;
-  height: 20px;
-  color: var(--gray);
-`;
-
-export const LocationIcon = styled(LocationOn)`
-  ${iconCSS}
-`;
-export const CakeIcon = styled(Cake)`
-  ${iconCSS}
 `;
 
 export const Followage = styled.div`
+  padding: 10px 0;
   display: flex;
   > span {
-    font-size: 15px;
+    font-size: 17px;
     color: var(--gray);
     & + span {
       margin-left: 20px;

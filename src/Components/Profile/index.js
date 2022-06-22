@@ -7,16 +7,16 @@ import {
   Banner,
   Avatar,
   ProfileData,
-  LocationIcon,
-  CakeIcon,
   Followage,
 } from "../ProfilePage/styles";
 import { ProfileInfo } from "../Header/styles";
 import { LargeButton } from "../Button/styles";
+import Header from "../Header";
 
 export const ProfileVisit = () => {
   return (
     <Container>
+      <Header />
       <Banner>
         <Avatar />
       </Banner>
@@ -30,16 +30,6 @@ export const ProfileVisit = () => {
         {/* e o houver */}
         {/* <ButtonA outlined>Deixar de seguir</ButtonA> */}
         <h1>@tx</h1>
-        <ul>
-          <li>
-            <LocationIcon />
-            Minas Gerais, Brasil
-          </li>
-          <li>
-            <CakeIcon />
-            Nascido(a) em 21 de abril de 1990
-          </li>
-        </ul>
 
         <Followage>
           <span>

@@ -3,6 +3,7 @@ import { Home, Search, Notifications, Person } from "../../styles/Icons";
 import { Pencil } from "@styled-icons/octicons/Pencil";
 
 export const Container = styled.div`
+  height: 100vh;
   flex-direction: column;
   width: min(700px, 100%);
   @media (min-width: 500px) {
@@ -17,11 +18,14 @@ export const H1 = styled.h1`
 `;
 
 export const ProfileInfo = styled.div`
+  max-width: 800px;
+  height: 50px;
   margin-left: 17px;
   display: flex;
   flex-direction: column;
   > strong {
     font-size: 19px;
+    margin-top: 10px;
   }
   > span {
     font-size: 15px;

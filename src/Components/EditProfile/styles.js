@@ -5,7 +5,7 @@ export const Container = styled.div`
   max-height: 100%;
   max-width: 100%;
   justify-content: space-around;
-  @media (min-width: 1280px) {
+  @media (min-width: 1000px) {
     width: 800px;
     margin-left: 20%;
     align-items: center;
@@ -19,7 +19,7 @@ export const Text = styled.div`
   outline: none;
 `;
 export const Body = styled.div`
-  margin-top: 30px;
+  margin-top: 70px;
   padding-right: 20px;
   padding-left: 20px;
 `;
@@ -61,11 +61,7 @@ export const Bio = styled.textarea`
   height: 75px;
   resize: none;
 `;
-export const Birt = styled.div`
-  margin-top: 80px;
-  height: 100px;
-  font-size: 20px;
-`;
+
 export const Button = styled.a`
   color: var(--twitter);
   cursor: pointer;
@@ -75,10 +71,4 @@ export const Button = styled.a`
   &:hover {
     color: var(--twitter-dark-hover);
   }
-`;
-export const P = styled.p`
-  margin: 10px;
-  color: white;
-  height: 20px;
-  font-size: 20px;
 `;

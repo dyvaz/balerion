@@ -39,10 +39,8 @@ export const MenuButton = styled.button`
         margin-top: -15px;
       }
     }
-
     padding-right: 15px;
   }
-
   & + button {
     margin-top: 16.5px;
   }
@@ -144,5 +142,10 @@ export const LargeButton = styled.button`
         background-color: var(--twitter-light-hover);
       }
     }
+  }
+  &.profile {
+    float: rigth;
+    margin-left: auto;
+    margin-top: -30px;
   }
 `;

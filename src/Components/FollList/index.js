@@ -25,51 +25,6 @@ export const Following = () => {
           {/* o placehouder muda pra unfollow */}
           <Button>Following</Button>
         </Item>
-        <Item>
-          <User1 />
-          {/* o placehouder muda pra unfollow */}
-          <Button>Following</Button>
-        </Item>
-        <Item>
-          <User1 />
-          {/* o placehouder muda pra unfollow */}
-          <Button>Following</Button>
-        </Item>
-        <Item>
-          <User1 />
-          {/* o placehouder muda pra unfollow */}
-          <Button>Following</Button>
-        </Item>
-        <Item>
-          <User1 />
-          {/* o placehouder muda pra unfollow */}
-          <Button>Following</Button>
-        </Item>
-        <Item>
-          <User1 />
-          {/* o placehouder muda pra unfollow */}
-          <Button>Following</Button>
-        </Item>
-        <Item>
-          <User1 />
-          {/* o placehouder muda pra unfollow */}
-          <Button>Following</Button>
-        </Item>
-        <Item>
-          <User1 />
-          {/* o placehouder muda pra unfollow */}
-          <Button>Following</Button>
-        </Item>
-        <Item>
-          <User1 />
-          {/* o placehouder muda pra unfollow */}
-          <Button>Following</Button>
-        </Item>
-        <Item>
-          <User1 />
-          {/* o placehouder muda pra unfollow */}
-          <Button>Following</Button>
-        </Item>
       </Section>
     </Tudo>
   );
@@ -79,8 +34,11 @@ export const Followers = () => {
   return (
     <Tudo>
       <Nav>
-        <A className="active">Followers</A>
-        <A>Following</A>
+        <Header />
+        <Top>
+          <A>Following</A>
+          <A className="active">Followers</A>
+        </Top>
       </Nav>
 
       <Item>
