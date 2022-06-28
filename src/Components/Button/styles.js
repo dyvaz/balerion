@@ -1,4 +1,4 @@
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 export const MenuButton = styled.button`
   //background-color: black;
   display: flex;
@@ -13,14 +13,15 @@ export const MenuButton = styled.button`
   }
 
   > span {
-    display: none;
+    &.name {
+      display: none;
+    }
     &.bolinha[data-count]:after {
       width: 10px;
       height: 10px;
       position: absolute;
       content: attr(data-count);
       border-radius: 50%;
-
       background: var(--twitter);
       margin-left: -20px;
       margin-top: -15px;
@@ -29,7 +30,9 @@ export const MenuButton = styled.button`
 
   @media (min-width: 1380px) {
     > span {
-      display: inline;
+      &.name {
+        display: inline;
+      }
       margin-left: 9px;
       font-weight: bold;
       font-size: 19px;
